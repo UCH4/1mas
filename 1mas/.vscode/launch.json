@@ -1,16 +1,19 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
-            "name": ".NET MAUI",
+            "name": "Debug Android",
+            "type": "maui", // ¡Esto es clave! Debe ser 'maui'
+            "request": "launch",
+            "preLaunchTask": "build-android",
+            "targetFramework": "net9.0-android"
+        },
+        {
+            "name": "Debug iOS",
             "type": "maui",
             "request": "launch",
-            "preLaunchTask": "maui: Build"
+            "preLaunchTask": "build-ios",
+            "targetFramework": "net9.0-ios"
         }
-        
     ]
 }
