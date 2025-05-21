@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TuAppMaui.ViewModels"
+             x:Class="TuAppMaui.Views.LoginPage"
+             Title="Login">
+
+    <ContentPage.BindingContext>
+        <local:LoginPageViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Center">
+
+        <Label
+            Text="¡Bienvenido a tu App MAUI!"
+            FontSize="32"
+            HorizontalOptions="Center" />
+
+        <Entry
+            Placeholder="Correo electrónico"
+            Keyboard="Email"
+            Text="{Binding Email}" />
+
+        <Entry
+            Placeholder="Contraseña"
+            IsPassword="True"
+            Text="{Binding Password}" />
+
+        <Button
+            Text="Iniciar Sesión"
+            Command="{Binding LoginCommand}" />
+
+        <Button
+            Text="Registrarse"
+            Command="{Binding RegisterCommand}" />
+
+        <Label
+            Text="{Binding Message}"
+            HorizontalOptions="Center"
+            TextColor="Red" />
+
+    </VerticalStackLayout>
+</ContentPage>
