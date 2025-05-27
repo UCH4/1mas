@@ -1,9 +1,1 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
-  <string name="gcm_defaultSenderId" translatable="false">65296406505</string>
-  <string name="google_app_id" translatable="false">1:65296406505:android:a3baaf924727b0eba2dd78</string>
-  <string name="google_api_key" translatable="false">AIzaSyCOb0r9r7-yo6091ZjCQVglAqM-nTOvCX4</string>
-  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCOb0r9r7-yo6091ZjCQVglAqM-nTOvCX4</string>
-  <string name="google_storage_bucket" translatable="false">mas-a0b4c.firebasestorage.app</string>
-  <string name="project_id" translatable="false">mas-a0b4c</string>
-</resources>
+<resources><string name="gcm_defaultSenderId" translatable="false">65296406505</string><string name="google_app_id" translatable="false">1:65296406505:android:a3baaf924727b0eba2dd78</string><string name="google_api_key" translatable="false">AIzaSyCOb0r9r7-yo6091ZjCQVglAqM-nTOvCX4</string><string name="google_crash_reporting_api_key" translatable="false">AIzaSyCOb0r9r7-yo6091ZjCQVglAqM-nTOvCX4</string><string name="google_storage_bucket" translatable="false">mas-a0b4c.firebasestorage.app</string><string name="project_id" translatable="false">mas-a0b4c</string></resources>

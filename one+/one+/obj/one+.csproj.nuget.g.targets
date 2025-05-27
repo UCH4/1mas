@@ -137,6 +137,7 @@
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions/8.0.2/buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions/8.0.2/buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.maui.core/8.0.100/buildTransitive/Microsoft.Maui.Core.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.maui.core/8.0.100/buildTransitive/Microsoft.Maui.Core.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.maui.controls.build.tasks/8.0.21/buildTransitive/netstandard2.0/Microsoft.Maui.Controls.Build.Tasks.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.maui.controls.build.tasks/8.0.21/buildTransitive/netstandard2.0/Microsoft.Maui.Controls.Build.Tasks.targets')" />
+    <Import Project="$(NuGetPackageRoot)communitytoolkit.mvvm/8.2.0/buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets" Condition="Exists('$(NuGetPackageRoot)communitytoolkit.mvvm/8.2.0/buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets')" />
   </ImportGroup>
   <ImportGroup Condition=" '$(TargetFramework)' == 'net8.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)xamarin.build.download/0.11.0/buildTransitive/Xamarin.Build.Download.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.build.download/0.11.0/buildTransitive/Xamarin.Build.Download.targets')" />
@@ -161,5 +162,6 @@
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions/8.0.2/buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions/8.0.2/buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.maui.core/8.0.100/buildTransitive/Microsoft.Maui.Core.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.maui.core/8.0.100/buildTransitive/Microsoft.Maui.Core.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.maui.controls.build.tasks/8.0.21/buildTransitive/net6.0-ios10.0/Microsoft.Maui.Controls.Build.Tasks.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.maui.controls.build.tasks/8.0.21/buildTransitive/net6.0-ios10.0/Microsoft.Maui.Controls.Build.Tasks.targets')" />
+    <Import Project="$(NuGetPackageRoot)communitytoolkit.mvvm/8.2.0/buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets" Condition="Exists('$(NuGetPackageRoot)communitytoolkit.mvvm/8.2.0/buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets')" />
   </ImportGroup>
 </Project>
